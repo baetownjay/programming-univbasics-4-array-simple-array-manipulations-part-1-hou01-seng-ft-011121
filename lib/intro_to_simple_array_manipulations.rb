@@ -10,11 +10,6 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_arguments(array, amount)
-  i=
-  while i < amount.to_i do
-    
-    array.pop()
-    i += 1
-  end
+def pop_with_arguments(array)
+  array.pop(2)
 end
