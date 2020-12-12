@@ -11,7 +11,9 @@ def using_pop(array)
 end
 
 def pop_with_arguments(array, amount)
+  i=
   while i < amount.to_i do
+    
     array.pop()
     i += 1
   end
